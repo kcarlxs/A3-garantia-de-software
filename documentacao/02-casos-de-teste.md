@@ -10,8 +10,9 @@ As capturas de tela estão no arquivo `A3-Grupo6-Relatorio-e-Evidencias.pdf`, en
 | Reteste | 23/11/2026 | CT01 a CT12 repetidos depois das correções do BUG01 ao BUG05. |
 | Revisão | 25/11/2026 | Casos novos CT16 a CT19, antes da correção do BUG06 e do BUG07. |
 | Execução final | 25/11/2026 | CT01 a CT19 na versão final, no Microsoft Edge e no Google Chrome. |
+| Execução manual | 25/11/2026 | CT01 a CT14 e CT16 a CT19 na versão final, executados à mão por um integrante do grupo. Todos aprovados. |
 
-**Como foi executado:** na execução final, o `index.html` foi aberto direto do disco e um roteiro automatizado de apoio digitou os dados, clicou nos botões e respondeu à janela de confirmação. As capturas são do Edge. A saída de cada caso está em `saida-execucao-final-edge.txt` e `saida-execucao-final-chrome.txt`. Na 1ª execução, parte do preenchimento e a resposta da confirmação (CT08 e CT09) também foram feitas por script.
+**Como foi executado:** na execução final, o `index.html` foi aberto direto do disco e um roteiro automatizado de apoio digitou os dados, clicou nos botões e respondeu à janela de confirmação. As capturas são do Edge. A saída de cada caso está em `saida-execucao-final-edge.txt` e `saida-execucao-final-chrome.txt`. Na execução manual, um integrante digitou os dados e respondeu à janela de confirmação, sem novas capturas; no CT18 foi usada só a pesquisa `carlos2`. Na 1ª execução, parte do preenchimento e a resposta da confirmação (CT08 e CT09) também foram feitas por script.
 
 **Sobre o visual das capturas:** depois das correções de 23/11, a tela mudou de cores, fonte e textos (título, rótulos, botões e mensagens de sucesso), sem mudar as regras. As capturas de 23/11 mostram a primeira versão da tela (1ª execução) ou a nova (reteste), e não fazem parte da entrega. As capturas "antes" do BUG01 ao BUG05 foram refeitas em 25/11, reproduzindo cada defeito com o código que tinha o erro e o visual atual (`saida-reproducao-BUG01-a-BUG05.txt`).
 

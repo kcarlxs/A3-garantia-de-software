@@ -18,6 +18,7 @@
 | 1ª execução (23/11) | 14 (CT01 a CT14) | 10 (71,4%) | 4 (28,6%): CT11 a CT14 |
 | Casos novos da revisão (25/11), antes das correções | 4 (CT16 a CT19) | 2 (50%) | 2 (50%): CT18 e CT19 |
 | Execução final (25/11) | 19 (CT01 a CT19) | 19 (100%) | 0 (0%) |
+| Execução manual (25/11) | 18 (CT01 a CT14 e CT16 a CT19) | 18 (100%) | 0 (0%) |
 
 Defeitos identificados: **7**. Defeitos corrigidos: **7**.
 
@@ -45,7 +46,7 @@ O plano está em `01-plano-de-testes.md`, os casos e as evidências em `02-casos
 
 ## 4. Conclusão
 
-A aplicação foi submetida a testes unitários, de integração, de sistema, funcionais, negativos, de persistência, exploratórios, de caixa branca e de regressão. Na primeira execução, 10 de 14 casos foram aprovados. O exploratório revelou 4 falhas e o reteste revelou uma quinta. Uma revisão posterior encontrou mais duas. Foram 7 defeitos no total (1 de severidade alta, 3 de média e 3 de baixa), todos corrigidos e retestados. Na execução final, os 19 casos foram aprovados no Edge e no Chrome.
+A aplicação foi submetida a testes unitários, de integração, de sistema, funcionais, negativos, de persistência, exploratórios, de caixa branca e de regressão. Na primeira execução, 10 de 14 casos foram aprovados. O exploratório revelou 4 falhas e o reteste revelou uma quinta. Uma revisão posterior encontrou mais duas. Foram 7 defeitos no total (1 de severidade alta, 3 de média e 3 de baixa), todos corrigidos e retestados. Na execução final, os 19 casos foram aprovados no Edge e no Chrome, e a execução manual confirmou 18 deles.
 
 A qualidade foi considerada **satisfatória para o escopo proposto**: os requisitos testados foram atendidos e nenhum defeito registrado está pendente. Restam as limitações abaixo.
 
